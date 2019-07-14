@@ -252,7 +252,7 @@ namespace motor {
         // 50hz 20000 us //by Sergejs Janulonoks
         //let v_us = (degree * 1800 / 180 + 600) // 0.6 ~ 2.4
         //let value = v_us * 4096 / 20000
-        //setPwm(index + 7, 0, value)
+        setPwm(index + 7, 0, value)
     }
 
     /**
