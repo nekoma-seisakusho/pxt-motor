@@ -248,7 +248,6 @@ namespace motor {
         // 50hz
         let v_us = (degree * 10 + 600) // 0.6ms ~ 2.4ms
         let value = v_us * 4095 / (1000000 / 50)
-
         setPwm(index + 7, 0, value)
     }
 
